@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Element Picker</title>
+  </head>
+  <body>
+    <div id="app">
+      <main>
+          <section id="form-section">
+            <form id="add-elements">
+                <label for="text-input">Inserisci un elemento</label>
+                <input type="text" id="text-input">
+                <button id="add-btn" type="submit">Aggiungi</button>
+            </form>
+          </section>
+
+          <section>
+              <div class="container">
+                  <div class="list-wrapper">
+                      <ul class="list-elements"></ul>
+                  </div>
+                  
+                  <div class="commands">
+                      <button id="generate-response">Genera</button>
+                  </div>
+
+                  <div class="results"></div>
+              </div>
+          </section>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
